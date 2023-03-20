@@ -1,2 +1,0 @@
-# Image-Processor
-Manipulates images
