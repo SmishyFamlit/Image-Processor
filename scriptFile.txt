@@ -1,0 +1,14 @@
+load res/cuphead.png cup
+horizontal-flip cup cup-horizontalFlip
+vertical-flip cup cup-verticalFlip
+brighten cup 40 cup-brighten
+brighten cup -40 cup-darken
+intensity cup cup-intensity
+value cup cup-value
+luma cup cup-luma
+blur cup cup-blur
+sharpen cup cup-sharpen
+grayscale-filter cup cup-grayscale-filter
+sepia cup cup-sepia
+save cup-horizontalFlip res/cup-horizontalFlip.png
+

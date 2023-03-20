@@ -1,0 +1,36 @@
+##This is ever command in our program and how it could be used 
+
+<image-name> is the name of the image that you want to manipulate from the image libary 
+<new-image-name> is the new name of the image that you want to save into the image library
+
+load <filename> <image-name> - <filename> the name of the file on the computer that you want to load in 
+save <image-name> <filepath> - <filepath> the path and name of the image that you want to save
+horizontal-flip <image-name> <new-image-name>
+vertical-flip <image-name> <new-image-name>
+luma <image-name> <new-image-name>
+value <image-name> <new-image-name>
+intensity <image-name> <new-image-name>
+brighten <image-name> <value> <new-image-name> - <value> the value to brighten the image by. If value < 0, darkens the image, if value > 0, brighten the image.
+grayscale <RGB component> <image-name> <new-image-name> - <RGB component> the component of rgb that you want to isolate to be grayscale.
+grayscale-filter <image-name> <new-image-name>
+sepia <image-name> <new-image-name>
+blur <image-name> <new-image-name>
+sharpen <image-name> <new-image-name>
+quit
+--help 
+
+------------------------------------------------------------------------------------------------------------------------------
+##How to properly use commands
+
+in order to manipulate any of the images you must call the load command before any other command.
+
+must add extenstion type to the end of the file in order to save it as a ppm, BPM, JPG, PNG.
+
+
+------------------------------------------------------------------------------------------------------------------------------
+##How to use the GUI
+- when you load up the program got to File > Load 
+- find an image on your PC that you would like to manipulate
+- type in the name of the image in the pop up text box.
+- to manipulate the images go to Edit > (Any action you wish to preform)
+- when you finish manipulating the image go to File > Save and save it anywhere on your computer with an extention file
